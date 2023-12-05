@@ -4,17 +4,18 @@ public class Heartbleed {
      * This function take a string, cyphers it
      * and simulates "Heartbleeding" bug
      *
-     * @param inputString
+     * @param inputString The input String
      * @param outputLength The desired length
      * @param key The Caeser cypher key
      * @return An encrypted string with the desired length
      */
     public static String manipulateString(String inputString, int outputLength, int key) {
-        int inputLength = inputString.length();
 
-        if (inputString == null || outputLength <= 0 || inputLength == 0) {
+        if (inputString == null || outputLength <= 0 || inputString.isEmpty()) {
             return "";
         }
+
+        int inputLength = inputString.length();
 
         if(key < 0) {
             key = 0;    // Soft value
@@ -39,7 +40,7 @@ public class Heartbleed {
     /**
      * This method encrypts a message using the Caesar Cipher.
      *
-     * @param inputString
+     * @param inputString The input String
      * @param key The Caeser cypher key
      * @return An encrypted string
      */
