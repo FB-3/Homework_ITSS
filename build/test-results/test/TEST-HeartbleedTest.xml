@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HeartbleedTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-11-29T10:12:18" hostname="DESKTOP-UGB2INT" time="0.045">
+  <properties/>
+  <testcase name="shiftAndDuplicateInputTest()" classname="HeartbleedTest" time="0.036"/>
+  <testcase name="onlyShiftInputTest()" classname="HeartbleedTest" time="0.002"/>
+  <testcase name="onlyDuplicateInputTest()" classname="HeartbleedTest" time="0.001"/>
+  <testcase name="specificationTest()" classname="HeartbleedTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
